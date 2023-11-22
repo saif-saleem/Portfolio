@@ -1,10 +1,9 @@
-import React from 'react';
-import styled from 'styled-components';
-import PText from '../components/PText';
-import Button from '../components/Button';
-import my3 from '../assets/images/my3.jpg';
-import AboutInfoItem from '../components/AboutInfoItem';
-import ContactBanner from '../components/ContactBanner';
+import React from 'react'
+import styled from 'styled-components'
+import PText from '../components/PText'
+import my3 from '../assets/images/my3.jpg'
+import AboutInfoItem from '../components/AboutInfoItem'
+import ContactBanner from '../components/ContactBanner'
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -71,7 +70,7 @@ const AboutPageStyles = styled.div`
       font-size: 3rem;
     }
   }
-`;
+`
 
 export default function About() {
   return (
@@ -141,5 +140,5 @@ export default function About() {
         <ContactBanner />
       </AboutPageStyles>
     </>
-  );
+  )
 }

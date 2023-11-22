@@ -1,12 +1,7 @@
-import { v4 as uuidv4 } from 'uuid';
-import meme from '../images/meme.png';
-import UTrackerImg from '../images/utracker.jpg';
-import iot from '../images/iot.png';
-import food from '../images/food.jpg';
-import CavinImg from '../images/cavinimg.jpg';
-import Reactchat from '../images/react_chat.jpeg';
-import Screenshot from '../images/screenshot.jpeg';
-import Screenshot2 from '../images/screenshot2.jpeg';
+import { v4 as uuidv4 } from 'uuid'
+import Reactchat from '../images/react_chat.jpeg'
+import Screenshot from '../images/screenshot.jpeg'
+import Screenshot2 from '../images/screenshot2.jpeg'
 
 const projects = [
   {
@@ -31,6 +26,6 @@ const projects = [
     img: Screenshot2,
     link: 'https://github.com/saif-saleem/SheetClone',
   },
-];
+]
 
-export default projects;
+export default projects
