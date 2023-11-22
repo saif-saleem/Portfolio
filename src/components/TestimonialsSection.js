@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import { MdArrowForward, MdArrowBack } from 'react-icons/md';
-import { CSSTransition, SwitchTransition } from 'react-transition-group';
-import PText from './PText';
-import SectionTitle from './SectionTitle';
-import testimonials from '../assets/data/testimonials';
+import React, { useState } from 'react'
+import styled from 'styled-components'
+import { MdArrowForward, MdArrowBack } from 'react-icons/md'
+import { CSSTransition, SwitchTransition } from 'react-transition-group'
+import PText from './PText'
+import SectionTitle from './SectionTitle'
+import testimonials from '../assets/data/testimonials'
 
 const TestimonialSectionStyles = styled.div`
   overflow-x: hidden;
@@ -78,24 +78,24 @@ const TestimonialSectionStyles = styled.div`
     transition: 200ms ease-in;
     transition-property: transform, opacity;
   }
-`;
+`
 
 export default function TestimonialsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const activeSlide = testimonials[activeIndex];
+  const [activeIndex, setActiveIndex] = useState(0)
+  const activeSlide = testimonials[activeIndex]
 
   function handleNext() {
     if (activeIndex >= testimonials.length - 1) {
-      setActiveIndex(0);
+      setActiveIndex(0)
     } else {
-      setActiveIndex((oldIndex) => oldIndex + 1);
+      setActiveIndex((oldIndex) => oldIndex + 1)
     }
   }
   function handlePrev() {
     if (activeIndex === 0) {
-      setActiveIndex(testimonials.length - 1);
+      setActiveIndex(testimonials.length - 1)
     } else {
-      setActiveIndex((oldIndex) => oldIndex - 1);
+      setActiveIndex((oldIndex) => oldIndex - 1)
     }
   }
 
@@ -144,5 +144,5 @@ export default function TestimonialsSection() {
         </div>
       </div>
     </TestimonialSectionStyles>
-  );
+  )
 }

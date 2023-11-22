@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 const ButtonStyle = styled.div`
   margin-top: 2rem;
@@ -19,7 +19,7 @@ const ButtonStyle = styled.div`
       font-size: 1.8rem;
     }
   }
-`;
+`
 
 export default function Button({
   btnText = 'test',
@@ -32,5 +32,5 @@ export default function Button({
         {btnText}
       </a>
     </ButtonStyle>
-  );
+  )
 }

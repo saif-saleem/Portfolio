@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import FooterCol from './FooterCol';
-import PText from './PText';
+import React from 'react'
+import styled from 'styled-components'
+import FooterCol from './FooterCol'
+import PText from './PText'
 
 const FooterStyle = styled.div`
   background-color: var(--deep-dark);
@@ -50,7 +50,7 @@ const FooterStyle = styled.div`
       }
     }
   }
-`;
+`
 
 export default function Footer() {
   return (
@@ -130,5 +130,5 @@ export default function Footer() {
         </div>
       </div>
     </FooterStyle>
-  );
+  )
 }

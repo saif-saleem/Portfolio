@@ -1,8 +1,8 @@
-import React from 'react';
-import { MdDesktopMac, MdCode } from 'react-icons/md';
-import styled from 'styled-components';
-import SectionTitle from './SectionTitle';
-import ServicesSectionItem from './ServicesSectionItem';
+import React from 'react'
+import { MdDesktopMac, MdCode } from 'react-icons/md'
+import styled from 'styled-components'
+import SectionTitle from './SectionTitle'
+import ServicesSectionItem from './ServicesSectionItem'
 
 const ServicesItemsStyles = styled.div`
   padding: 10rem 0;
@@ -21,7 +21,7 @@ const ServicesItemsStyles = styled.div`
       gap: 5rem;
     }
   }
-`;
+`
 
 export default function ServicesSection() {
   return (
@@ -42,5 +42,5 @@ export default function ServicesSection() {
         </div>
       </div>
     </ServicesItemsStyles>
-  );
+  )
 }

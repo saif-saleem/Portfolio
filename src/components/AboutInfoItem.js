@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import PText from './PText';
+import React from 'react'
+import styled from 'styled-components'
+import PText from './PText'
 
 const AboutItemStyles = styled.div`
   display: flex;
@@ -35,7 +35,7 @@ const AboutItemStyles = styled.div`
       font-size: 2rem;
     }
   }
-`;
+`
 
 export default function AboutInfoItem({
   title = 'Title',
@@ -52,5 +52,5 @@ export default function AboutInfoItem({
         ))}
       </div>
     </AboutItemStyles>
-  );
+  )
 }

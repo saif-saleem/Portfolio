@@ -1,5 +1,5 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 
 const SectionTitleStyle = styled.div`
   text-align: center;
@@ -22,7 +22,7 @@ const SectionTitleStyle = styled.div`
       font-size: 3.6rem;
     }
   }
-`;
+`
 
 export default function SectionTitle({
   subheading = 'Need Subheading',
@@ -33,5 +33,5 @@ export default function SectionTitle({
       <p>{subheading}</p>
       <h2>{heading}</h2>
     </SectionTitleStyle>
-  );
+  )
 }
